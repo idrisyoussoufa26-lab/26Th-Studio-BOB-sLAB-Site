@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOB’sLAB – 26Th Studio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            background: #0c0c0c;
+            color: #eaeaea;
+            line-height: 1.7;
+        }
+
+        header {
+            text-align: center;
+            padding: 70px 20px;
+            background: linear-gradient(180deg, #111, #0c0c0c);
+            border-bottom: 2px solid #222;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 700;
+            color: #3a8bff;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #ccc;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: #0f0f0f;
+            border-bottom: 1px solid #1a1a1a;
+            text-align: center;
+            padding: 12px 0;
+            z-index: 50;
+        }
+
+        nav a {
+            margin: 0 18px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #3a8bff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            color: #60a4ff;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 55px 25px;
+        }
+
+        h2 {
+            color: #3a8bff;
+            margin-bottom: 12px;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: #60a4ff;
+            margin-top: 25px;
+            margin-bottom: 8px;
+            font-size: 1.25rem;
+        }
+
+        p {
+            color: #d5d5d5;
+            font-size: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            font-size: 0.9rem;
+            background: #0f0f0f;
+            border-top: 1px solid #1a1a1a;
+            color: #777;
+        }
+    </style>
+
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+</head>
+
+<body>
+
+<header>
+    <h1>BOB’sLAB</h1>
+    <p>A VR Physics Sandbox Experience by 26Th Studio</p>
+</header>
+
+<nav>
+    <a onclick="scrollToSection('home')">Home</a>
+    <a onclick="scrollToSection('privacy')">Privacy Policy</a>
+    <a onclick="scrollToSection('tos')">Terms of Service</a>
+    <a onclick="scrollToSection('support')">Support</a>
+</nav>
+
+<section id="home">
+    <h2>About BOB’sLAB</h2>
+    <p>
+        BOB’sLAB is a creative VR physics sandbox designed and developed by
+        <strong>26Th Studio</strong>. Players can experiment, build, interact with
+        objects, and explore a world driven by advanced physics simulation.
+        This page provides all required legal, privacy, and support information
+        for Meta Quest Store submission and public availability.
+    </p>
+</section>
+
+<section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p><strong>Last Updated:</strong> 09/12/2025</p>
+
+    <h3>1. Data Collection (VRC.Privacy.1)</h3>
+    <p>
+        BOB’sLAB does <strong>not collect any personally identifiable information</strong>.
+        No analytics systems, tracking technologies, advertising tools, or
+        user-identifying services are used within the game.
+    </p>
+
+    <h3>2. Use of Data (VRC.Privacy.2)</h3>
+    <p>
+        Because no user data is collected, no information is used, processed,
+        or stored for any purpose.
+    </p>
+
+    <h3>3. Third-Party Sharing (VRC.Privacy.3)</h3>
+    <p>
+        BOB’sLAB does not share, transmit, distribute, or sell user information
+        to any third parties. No external parties ever receive player data.
+    </p>
+
+    
+    </p>
+</section>
+
+<section id="tos">
+    <h2>Terms of Service</h2>
+    <p>
+        By using BOB’sLAB, you agree to the following terms:
+    </p>
+
+    <h3>Use of the Software</h3>
+    <p>
+        BOB’sLAB is provided “as-is” without warranties of any kind.
+        26Th Studio is not responsible for any property damage, data loss,
+        discomfort, motion sickness, or other effects related to gameplay.
+    </p>
+
+    <h3>Intellectual Property</h3>
+    <p>
+        All game content—including names, logos, assets, and code—is the
+        property of 26Th Studio. Redistribution, modification, or commercial
+        use is prohibited without explicit written permission.
+    </p>
+
+    <h3>Limitations of Liability</h3>
+    <p>
+        26Th Studio is not liable for damages resulting from the use or
+        inability to use the software, including interruptions, bugs,
+        performance issues, or VR-related physical discomfort.
+    </p>
+</section>
+
+<section id="support">
+    <h2>Support</h2>
+    <p>
+        If you encounter issues, have questions, or need assistance with
+        BOB’sLAB, please reach out to the dev:
+    </p>
+
+    <p><strong>📧 Discord:</strong>https://discord.gg/tHTZembkSE</p>
+    
+</section>
+
+<footer>
+    © 2025 26Th Studio — All Rights Reserved
+</footer>
+
+</body>
+</html>
